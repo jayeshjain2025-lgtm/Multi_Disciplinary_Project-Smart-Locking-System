@@ -15,6 +15,7 @@ python3 generate_wiring_diagram.py
 ```
 
 This will create a `wiring_diagram.png` file showing:
+
 - **Microcontroller**: ESP32/Arduino central controller
 - **Solenoid Actuator**: Electric lock mechanism control
 - **Sensors**: 
@@ -26,7 +27,7 @@ This will create a `wiring_diagram.png` file showing:
   - WiFi Module (ESP-NOW protocol)
   - Bluetooth Module (BLE/HC-05)
 
-![Smart Locking System Wiring Diagram](components/wiring_diagram.png)
+![Smart Locking System Wiring Diagram](components/wiring_diagram.svg)
 
 ### Component Details
 
