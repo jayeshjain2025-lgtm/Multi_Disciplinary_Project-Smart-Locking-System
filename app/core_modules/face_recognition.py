@@ -15,7 +15,7 @@ from collections import Counter
 
 
 # Setup directory structure
-BASE_DIR = Path(__file__).parent / 'data'
+BASE_DIR = Path(__file__).parents[2] / 'data'
 TRAINING_DATA_DIR = BASE_DIR / 'training_data'
 MODELS_DIR = BASE_DIR / 'models'
 LOGS_DIR = BASE_DIR / 'logs'
@@ -498,4 +498,5 @@ if __name__ == "__main__":
         exit()
     
     else:
+
         print("\n✗ Invalid option!")
