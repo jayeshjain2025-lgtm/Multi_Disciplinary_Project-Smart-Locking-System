@@ -1,0 +1,67 @@
+# Smart Locking System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Framework & Web Server
+Flask==2.3.3
+Flask-RESTful==0.3.10
+Werkzeug==2.3.7
+
+# GPIO & Hardware Control (for Raspberry Pi)
+RPi.GPIO==0.7.0
+RPi.bmp280==0.2.2
+
+# Servo Motor & Hardware Communication
+pygpio==1.4.0
+pyserial==3.5
+paho-mqtt==1.6.1
+
+# Sensor & Input Management
+Adafruit-Blinka==8.13.0
+adafruit-circuitpython-dht==3.7.9
+adafruit-circuitpython-buzzer==1.10.3
+
+# Authentication & Security
+PyJWT==2.8.0
+bcrypt==4.0.1
+cryptography==41.0.3
+
+# Database & Data Management
+sqlalchemy==2.0.20
+psycopg2-binary==2.9.7
+pymongo==4.4.1
+
+# API & Data Processing
+requests==2.31.0
+numpy==1.24.3
+pandas==2.0.3
+
+# Logging & Monitoring
+python-logging-loki==0.3.2
+prometheus-client==0.17.1
+
+# Async & Task Scheduling
+celery==5.3.1
+redis==5.0.0
+apscheduler==3.10.4
+
+# Environment Variables & Configuration
+python-dotenv==1.0.0
+pyyaml==6.0
+
+# Testing & Code Quality
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+
+# Time & Date Handling
+pytz==2023.3
+python-dateutil==2.8.2
+
+# HTTP & Network
+urllib3==2.0.4
+httpx==0.24.1
+
+# Compression & Serialization
+msgpack==1.0.5
+jsonschema==4.19.0
