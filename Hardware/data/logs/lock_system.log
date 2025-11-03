@@ -1,0 +1,5 @@
+2025-11-03 00:28:30,959 - __main__ - INFO - Lock controller running in SIMULATION mode
+2025-11-03 00:28:30,960 - __main__ - INFO - Relay lock initialized on GPIO 17
+2025-11-03 00:28:30,961 - __main__ - INFO - Status LED initialized on GPIO 27
+2025-11-03 00:28:30,961 - __main__ - INFO - Buzzer initialized on GPIO 22
+2025-11-03 00:28:30,961 - __main__ - INFO - Lock controller initialized: RELAY mode
